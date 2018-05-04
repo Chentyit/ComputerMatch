@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ComputerMatch</string>
+    <string name="nav_home">主页</string>
+    <string name="nav_myplan">我的发布</string>
+    <string name="nav_will">即将开始</string>
+    <string name="nav_finish">已结束</string>
+    <string name="place">地点：</string>
+    <string name="time">时间：</string>
+    <string name="join">参加</string>
+    <string name="give_up">放弃</string>
+    <string name="change">修改</string>
+    <string name="delete">删除</string>
+    <string name="will_begin">即将开始</string>
+    <string name="finish">已结束</string>
+</resources>

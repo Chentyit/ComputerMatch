@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="300dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:text="添加地点："
+        android:textSize="18sp"
+        android:id="@+id/textView14" />
+
+    <EditText
+        android:id="@+id/add_place"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView14"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_centerHorizontal="true"
+        android:hint="请填写添加的地点"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/add_place"
+        android:layout_alignStart="@+id/add_place"
+        android:layout_below="@+id/add_place"
+        android:layout_marginTop="16dp"
+        android:text="设置时间："
+        android:textSize="18sp"
+        android:id="@+id/textView15" />
+
+    <EditText
+        android:id="@+id/add_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_below="@+id/textView15"
+        android:hint="请填写活动的时间"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/add_time"
+        android:layout_alignStart="@+id/add_time"
+        android:layout_below="@+id/add_time"
+        android:layout_marginTop="18dp"
+        android:text="活动种类："
+        android:textSize="18sp"
+        android:id="@+id/textView17" />
+
+    <EditText
+        android:id="@+id/add_kind"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_below="@+id/textView17"
+        android:hint="请填写活动种类"/>
+
+</RelativeLayout>

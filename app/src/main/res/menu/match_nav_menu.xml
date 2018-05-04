@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/computer_match_home"
+            android:title="@string/nav_home">
+        </item>
+
+        <item
+            android:id="@+id/nav_myplan"
+            android:icon="@drawable/computer_match_myplan"
+            android:title="@string/nav_myplan">
+        </item>
+
+        <item
+            android:id="@+id/nav_will"
+            android:icon="@drawable/computer_match_will"
+            android:title="@string/nav_will">
+        </item>
+
+        <item
+            android:id="@+id/nav_finish"
+            android:icon="@drawable/computer_match_finish"
+            android:title="@string/nav_finish">
+        </item>
+
+    </group>
+
+</menu>
